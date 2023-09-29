@@ -26,6 +26,17 @@ public class EmailService_Tests
         var excpetion = await Assert.ThrowsAsync<ArgumentNullException>(sendAsync);
         Assert.Contains("body", excpetion.Message);
     }
+    
+    [Theory]
+    [EmailServiceNullBodyData]
+    public async Task SendAsync_BodyIsNullOrEmpty_SmtpClientShouldntBeCalled(string body)
+    {
+        //Act
+        var sendAsync = async ()=> await _service.SendAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<string>(), body);
+
+        //Assert
+        _smtpClientMoq.VerifyNoOtherCalls();
+    }
 
     [Fact]
     public async Task SendAsync_WhenCalled_SmtpSendShouldBeCalled_()

@@ -13,7 +13,7 @@ public class OldEmailService_tests
 
         //Act
         await service.SendAsync("", "", "", body);
-
+        
         //Assert
         Assert.True(true);
     }
