@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Qv/Tv74PaW9mG/de+2GQm4jKJgHNibRQOd4e0hYbgVDY7Gh62hiBfLC7rjl36JWXaok6gHzmUedhhRCoTjc5/g==",
+  "dgSpecHash": "J9CnSD9IpBSjnpCOzaVY+78iP/5AmRR17JlYdjdZ9gNhil/AJe871RPIL95LqUC1g4gp8+eDgxdy8Oz93ZiyEQ==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/Fundamental.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
@@ -13,6 +14,7 @@
     "/Users/macbook/.nuget/packages/microsoft.testplatform.objectmodel/17.3.2/microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.testplatform.testhost/17.3.2/microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/moq/4.20.69/moq.4.20.69.nupkg.sha512",
     "/Users/macbook/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
@@ -39,6 +41,7 @@
     "/Users/macbook/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.dynamic.runtime/4.0.11/system.dynamic.runtime.4.0.11.nupkg.sha512",

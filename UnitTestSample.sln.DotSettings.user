@@ -3,5 +3,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.ForthCalculatorTests.IsOdd_WhenCalled_ReturnsExpected&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.ThirdCalculatorTests.IsOdd_WhenCalled_ReturnsExpected&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.EmailService.OldEmailService_tests.SendAsync_BodyIsNullOrEmpty_ThrowArgumentException&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.EmailService.OldEmailService_tests.SendAsync_BodyIsNullOrEmpty_ThrowsArgumentException&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
