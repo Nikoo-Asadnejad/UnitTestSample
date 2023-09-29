@@ -99,3 +99,8 @@
 /Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/obj/Debug/net7.0/Fundamental.Tests.pdb
 /Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/obj/Debug/net7.0/Fundamental.Tests.genruntimeconfig.cache
 /Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/obj/Debug/net7.0/ref/Fundamental.Tests.dll
+/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/bin/Debug/net7.0/Castle.Core.dll
+/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/bin/Debug/net7.0/Moq.dll
+/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
+/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/macbook/Projects/UnitTestSample/Tests/Fundamental.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll

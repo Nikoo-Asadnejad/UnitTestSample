@@ -1,9 +1,15 @@
 using System.Net.Mail;
+using Fundamental.Interfaces;
 
 namespace Fundamental;
 
-public class OldEmailService
+public class EmailService
 {
+    private readonly ISmtpClientService _smtpClient;
+    public EmailService(ISmtpClientService smtpClient)
+    {
+        _smtpClient = smtpClient;
+    }
     public async Task SendAsync(string from, string to, string subject, string body,
         CancellationToken calnceleationToke = new CancellationToken())
     {
@@ -17,10 +23,7 @@ public class OldEmailService
         if (string.IsNullOrWhiteSpace(body))
             throw new ArgumentNullException(nameof(from));
         
-        SmtpClient smtpClient = new SmtpClient();
-        using (smtpClient) ;
-
         var mail = new MailMessage(from, to, subject, body);
-        smtpClient.SendAsync(mail, calnceleationToke);
+        await _smtpClient.SendAsync(mail);
     }
 }
