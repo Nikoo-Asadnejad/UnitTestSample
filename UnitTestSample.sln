@@ -4,9 +4,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{F3444D15-03E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9497A331-7E1E-4A73-8C46-6E0D5BA87D56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Src\Calculator\Calculator.csproj", "{C0C4BF84-D011-44F7-9044-A4F80A6F65D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental", "Src\Fundamental\Fundamental.csproj", "{C0C4BF84-D011-44F7-9044-A4F80A6F65D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Tests\Calculator.Tests\Calculator.Tests.csproj", "{A24FDE7C-B5A7-471A-A4D0-61D2B4990F04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental.Tests", "Tests\Fundamental.Tests\Fundamental.Tests.csproj", "{A24FDE7C-B5A7-471A-A4D0-61D2B4990F04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

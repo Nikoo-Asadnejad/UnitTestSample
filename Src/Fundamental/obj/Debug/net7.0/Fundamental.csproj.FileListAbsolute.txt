@@ -1,0 +1,12 @@
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/bin/Debug/net7.0/Fundamental.deps.json
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/bin/Debug/net7.0/Fundamental.dll
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/bin/Debug/net7.0/Fundamental.pdb
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.csproj.AssemblyReference.cache
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.AssemblyInfoInputs.cache
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.AssemblyInfo.cs
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.dll
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/refint/Fundamental.dll
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/Fundamental.pdb
+/Users/macbook/Projects/UnitTestSample/Src/Fundamental/obj/Debug/net7.0/ref/Fundamental.dll
