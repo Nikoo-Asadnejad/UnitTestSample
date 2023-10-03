@@ -1,7 +1,8 @@
-
-
 using SampleProject;
 
+/// <summary>
+/// Namings, arrange act assert, why should we use parameterized tests
+/// </summary>
 public class FirstCalculatorTests
 {
     [Fact]

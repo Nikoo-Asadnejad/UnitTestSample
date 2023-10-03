@@ -3,7 +3,7 @@ using SampleProject.Interfaces;
 
 namespace SampleProject;
 
-public class EmailService
+public class EmailService : IEmailService
 {
     private readonly ISmtpClientService _smtpClient;
     public EmailService(ISmtpClientService smtpClient)

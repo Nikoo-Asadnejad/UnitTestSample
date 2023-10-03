@@ -12,5 +12,6 @@
     &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.Services.User.UserRepository_Tests.AddAsync_UserExist_ReturnsNullIdAndError&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.Services._2.Product.ProductService_Tests.GetAsync_ProductExist_ReturnsProductDto&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.Services._2.Product.ProductService_Tests.GetAsync_ProductDoesNotExist_ThrowsException&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A24FDE7C-B5A7-471A-A4D0-61D2B4990F04::net7.0::Fundamental.Tests.Services._2.Product.ProductService_Tests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
