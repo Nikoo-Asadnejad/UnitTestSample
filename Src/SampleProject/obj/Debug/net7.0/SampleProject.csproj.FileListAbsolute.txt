@@ -1,0 +1,12 @@
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/bin/Debug/net7.0/SampleProject.deps.json
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/bin/Debug/net7.0/SampleProject.dll
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/bin/Debug/net7.0/SampleProject.pdb
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.csproj.AssemblyReference.cache
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.AssemblyInfoInputs.cache
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.AssemblyInfo.cs
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.csproj.CoreCompileInputs.cache
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.dll
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/refint/SampleProject.dll
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/SampleProject.pdb
+/Users/macbook/Projects/UnitTestSample/Src/SampleProject/obj/Debug/net7.0/ref/SampleProject.dll
