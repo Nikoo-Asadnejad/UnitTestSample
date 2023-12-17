@@ -3,6 +3,7 @@ using SampleProject.Dtos;
 using SampleProject.Interfaces;
 using SampleProject.Models;
 using SampleProject.Services.Product;
+using Shouldly;
 
 namespace Fundamental.Tests.Services._2.Product;
 
@@ -50,6 +51,10 @@ public partial class ProductService_Tests
         
         //Assert
         Assert.Equal(1 , result.Id);
+        
+        //Assert by shouldy
+        result.ShouldNotBeNull();
+        result.Id.ShouldBe(1);
     }
     
     [Fact]
@@ -59,6 +64,10 @@ public partial class ProductService_Tests
         _productResponse = null; //change func in setup to see error
         var func = async () => await _productService.GetAsync(1);
 
+        //Assert
         await Assert.ThrowsAnyAsync<Exception>(func);
+
+        //Assert by shouldy
+        Should.Throw<Exception>(func);
     }
 }

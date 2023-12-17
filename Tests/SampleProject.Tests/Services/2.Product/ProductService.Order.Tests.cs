@@ -1,5 +1,6 @@
 using Moq;
 using SampleProject.Models;
+using Shouldly;
 
 namespace Fundamental.Tests.Services._2.Product;
 
@@ -42,6 +43,8 @@ public partial class ProductService_Tests
         
         //Assert 
         Assert.False(result.isSuccessfull);
+        
+        
     }
 
     [Fact]
