@@ -10,6 +10,12 @@ public record ProductModel
         this.Inventory = Inventory;
     }
 
+    public ProductModel(string Name, decimal Price, int Inventory)
+    {
+        this.Name = Name;
+        this.Price = Price;
+        this.Inventory = Inventory;
+    }
     public int Id { get; set; }
     public string Name { get; set; }
     public decimal Price { get; set; }

@@ -18,6 +18,15 @@ public class ProductService
         _userRepository = userRepository;
         _orderRepository = orderRepository;
     }
+
+    public async Task AddAsync(ProductDto productDto)
+    {
+        if (productDto is null)
+            throw new ArgumentNullException();
+        
+        ProductModel productModel = new ProductModel(productDto.Name, productDto.Price, 10);
+        _repository.Save(productModel);
+    }
     
     public async Task<ProductDto> GetAsync(int id)
     {

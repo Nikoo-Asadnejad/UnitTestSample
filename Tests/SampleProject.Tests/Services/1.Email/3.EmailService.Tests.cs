@@ -77,5 +77,7 @@ public class EmailService_Tests
                                           && m.Body.Equals(body)
                                           && m.Subject.Equals(subject))) ,
             It.IsAny<CancellationToken>()));
+        
+     
     }
 }
