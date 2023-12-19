@@ -11,6 +11,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoFixture" Version="5.0.0-preview0007" />
+        <PackageReference Include="AutoFixture.Xunit" Version="5.0.0-preview0007" />
+        <PackageReference Include="AutoFixture.Xunit2" Version="5.0.0-preview0007" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
         <PackageReference Include="Moq" Version="4.20.69" />
         <PackageReference Include="Moq.EntityFrameworkCore" Version="7.0.0.2" />

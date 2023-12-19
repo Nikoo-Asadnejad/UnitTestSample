@@ -1,8 +1,11 @@
+using AutoFixture;
+using AutoFixture.Xunit;
 using Fundamental.Tests.TestData;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using Moq.EntityFrameworkCore;
 using SampleProject.Data;
+using SampleProject.Dtos;
 using SampleProject.Interfaces;
 using SampleProject.Models;
 using SampleProject.Repositories;
@@ -17,8 +20,21 @@ public sealed class ProductRepository_Tests
     public ProductRepository_Tests()
     {
         _contextMock = new (); // should not be sealed
+        // _contextMock.Setup<DbSet<ProductModel>>(x => x.Products)
+        //             .ReturnsDbSet(ProductDataGenerator.GetSampleProducts());
+        
+        Fixture fixture = new Fixture();
+
+        var sampleProduct = fixture.Build<ProductModel>()
+                                    .With(p => p.Id, 1)
+                                    .Create();
+        
+        List<ProductModel> products = new() { sampleProduct };
+        products.AddRange(fixture.CreateMany<ProductModel>());
+
+        
         _contextMock.Setup<DbSet<ProductModel>>(x => x.Products)
-                    .ReturnsDbSet(ProductDataGenerator.GetSampleProducts());
+            .ReturnsDbSet(products);
 
         _repository = new ProductRepository(_contextMock.Object);
     }
@@ -74,4 +90,6 @@ public sealed class ProductRepository_Tests
         productModel.Id.ShouldBeGreaterThan(0);
         result.ShouldBeTrue();
     }
+
+  
 }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "SampleProject.Tests/1.0.0": {
         "dependencies": {
+          "AutoFixture": "5.0.0-preview0007",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "Moq": "4.20.69",
           "Moq.EntityFrameworkCore": "7.0.0.2",
@@ -19,6 +20,18 @@
         },
         "runtime": {
           "SampleProject.Tests.dll": {}
+        }
+      },
+      "AutoFixture/5.0.0-preview0007": {
+        "dependencies": {
+          "Fare": "2.2.1",
+          "System.ComponentModel.Annotations": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoFixture.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
         }
       },
       "Castle.Core/5.1.1": {
@@ -50,6 +63,14 @@
           "lib/net7.0/EmptyFiles.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Fare/2.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/Fare.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.1.0"
           }
         }
       },
@@ -668,6 +689,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.ComponentModel.Annotations/4.4.0": {},
       "System.Console/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1335,6 +1357,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoFixture/5.0.0-preview0007": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-61sckPG/pGo7E+AHD5U8T7KfH6y2RlttAKheiCrvq9rCKWMltQi4uNoWFJG96VjNQKAM4ba+PGTgJ/rEuUrKjA==",
+      "path": "autofixture/5.0.0-preview0007",
+      "hashPath": "autofixture.5.0.0-preview0007.nupkg.sha512"
+    },
     "Castle.Core/5.1.1": {
       "type": "package",
       "serviceable": true,
@@ -1362,6 +1391,13 @@
       "sha512": "sha512-gwJEfIGS7FhykvtZoscwXj/XwW+mJY6UbAZk+qtLKFUGWC95kfKXnj8VkxsZQnWBxJemM/q664rGLN5nf+OHZw==",
       "path": "emptyfiles/4.4.0",
       "hashPath": "emptyfiles.4.4.0.nupkg.sha512"
+    },
+    "Fare/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-21XZo/yuXK1k0EUhdLnjgRD4n0HQYmPFchV6uaORcRc65rasZ1vdm2dmJXPBKZiIBztRRYRmmg/B76W721VWkA==",
+      "path": "fare/2.2.1",
+      "hashPath": "fare.2.2.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.3.2": {
       "type": "package",
@@ -1684,6 +1720,13 @@
       "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-29K3DQ+IGU7LBaMjTo7SI7T7X/tsMtLvz1p56LJ556Iu0Dw3pKZw5g8yCYCWMRxrOF0Hr0FU0FwW0o42y2sb3A==",
+      "path": "system.componentmodel.annotations/4.4.0",
+      "hashPath": "system.componentmodel.annotations.4.4.0.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",

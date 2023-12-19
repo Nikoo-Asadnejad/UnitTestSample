@@ -1,3 +1,4 @@
+using AutoFixture;
 using Moq;
 using SampleProject.Dtos;
 using SampleProject.Interfaces;

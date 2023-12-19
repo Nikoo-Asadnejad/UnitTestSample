@@ -163,3 +163,5 @@
 /Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/bin/Debug/net7.0/System.CodeDom.dll
 /Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/bin/Debug/net7.0/System.Management.dll
 /Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Management.dll
+/Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/bin/Debug/net7.0/AutoFixture.dll
+/Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/bin/Debug/net7.0/Fare.dll

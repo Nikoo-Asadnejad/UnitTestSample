@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "kdzmQwQoqNzbS2/tJFklgaHEW53BapcENx9ROeaudEuMBhjDTzIm6AKpDGqU7vdBRp/SxKdPW0GiBbh5nEZv+A==",
+  "dgSpecHash": "IhbosK+f9Jmp07WzdBnc7DpQP8TbFSQ6PqEGrJvffRZ8deyLYWzAeFKTJfTYbj5DPhnOfQEqV1Yr5S5F1p+uoA==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/UnitTestSample/Tests/SampleProject.Tests/SampleProject.Tests.csproj",
   "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/autofixture/5.0.0-preview0007/autofixture.5.0.0-preview0007.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/autofixture.xunit/5.0.0-preview0007/autofixture.xunit.5.0.0-preview0007.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/autofixture.xunit2/5.0.0-preview0007/autofixture.xunit2.5.0.0-preview0007.nupkg.sha512",
     "/Users/macbook/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/diffengine/11.3.0/diffengine.11.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/emptyfiles/4.4.0/emptyfiles.4.4.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/fare/2.2.1/fare.2.2.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
@@ -54,6 +58,7 @@
     "/Users/macbook/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/system.componentmodel.annotations/4.4.0/system.componentmodel.annotations.4.4.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
@@ -115,7 +120,39 @@
     "/Users/macbook/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/Users/macbook/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/xunit.extensions/1.8.0.1549/xunit.extensions.1.8.0.1549.nupkg.sha512",
     "/Users/macbook/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: AutoFixture.Xunit 5.0.0-preview0007 requires xunit (>= 1.8.0.1549 && < 2.0.0) but version xunit 2.4.2 was resolved.",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoFixture.Xunit 5.0.0-preview0007' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoFixture.Xunit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'xunit.extensions 1.8.0.1549' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "xunit.extensions",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
