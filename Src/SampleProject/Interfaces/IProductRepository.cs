@@ -4,7 +4,7 @@ namespace SampleProject.Interfaces;
 
 public interface IProductRepository
 {
-    Task<ProductModel> GetAsync(int id);
+    Task<ProductModel?> GetAsync(int id);
 
-    void Save(ProductModel productModel);
+    bool Save(ProductModel productModel);
 }

@@ -3,7 +3,7 @@ using SampleProject.Models;
 
 namespace SampleProject.Data;
 
-public sealed class SampleContext : DbContext
+public  class SampleContext : DbContext
 {
-    public DbSet<ProductModel> Products { get; set; }
+    public virtual DbSet<ProductModel> Products { get; set; }
 }

@@ -13,15 +13,18 @@ public sealed class ProductRepository : IProductRepository
     {
         this._context = context;
     }
-    public void Save(ProductModel productModel)
+    public bool Save(ProductModel productModel)
     {
+        if (productModel is null)
+            throw new ArgumentNullException();
+        
         _context.Products.AddAsync(productModel);
-        _context.SaveChanges();
+        return _context.SaveChanges() is 1;
     }
 
-    public async Task<ProductModel> GetAsync(int id)
+    public async Task<ProductModel?> GetAsync(int id)
     {
-        return _context.Products.Where(p => p.Id == id)
-                                 .FirstOrDefault();
+        var product = _context.Products.FirstOrDefault(p => p.Id == id);
+        return product;
     }
 }
