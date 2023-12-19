@@ -17,6 +17,7 @@ public partial class ProductService_Tests
         
         //Assert 
         Assert.False(result.isSuccessfull);
+        result.isSuccessfull.ShouldBeFalse();
     }
 
     [Fact]
@@ -30,6 +31,7 @@ public partial class ProductService_Tests
         
         //Assert 
         Assert.False(result.isSuccessfull);
+        result.isSuccessfull.ShouldBeFalse();
     }
 
     [Fact]
@@ -43,7 +45,7 @@ public partial class ProductService_Tests
         
         //Assert 
         Assert.False(result.isSuccessfull);
-        
+        result.isSuccessfull.ShouldBeFalse();
         
     }
 
@@ -58,6 +60,7 @@ public partial class ProductService_Tests
         
         //Assert 
         Assert.False(result.isSuccessfull);
+        result.isSuccessfull.ShouldBeFalse();
     }
 
     [Fact]
@@ -92,5 +95,6 @@ public partial class ProductService_Tests
         
         //Assert
         Assert.True(result.isSuccessfull);
+        result.isSuccessfull.ShouldBeTrue();
     }
 }

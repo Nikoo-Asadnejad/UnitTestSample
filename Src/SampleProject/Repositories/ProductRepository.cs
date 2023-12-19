@@ -19,8 +19,9 @@ public sealed class ProductRepository : IProductRepository
         _context.SaveChanges();
     }
 
-    public Task<ProductModel> GetAsync(int id)
+    public async Task<ProductModel> GetAsync(int id)
     {
-        throw new NotImplementedException();
+        return _context.Products.Where(p => p.Id == id)
+                                 .FirstOrDefault();
     }
 }
