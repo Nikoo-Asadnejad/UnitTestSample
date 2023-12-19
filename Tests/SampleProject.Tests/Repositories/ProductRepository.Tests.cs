@@ -54,4 +54,24 @@ public sealed class ProductRepository_Tests
         _contextMock.Verify(p=>p.Add(null) , Times.Never);
         _contextMock.Verify(p=>p.SaveChanges() , Times.Never);
     }
+    
+    [Fact]
+    public async Task Save_WhenCalled_ProductShouldBeSaved()
+    {
+        //Arrange
+        ProductModel productModel = new("Test", 4000, 20);
+        _contextMock.Setup(c => c.SaveChanges())
+                    .Returns(1)
+                    .Callback(() => productModel.Id = 5);
+
+        //Act
+        bool result =_repository.Save(productModel);
+        
+        //Assert
+        _contextMock.Verify(p=>p.Products.Add(It.IsAny<ProductModel>()) , Times.Once);
+        _contextMock.Verify(p=>p.SaveChanges() , Times.AtLeastOnce);
+        productModel.ShouldNotBeNull();
+        productModel.Id.ShouldBeGreaterThan(0);
+        result.ShouldBeTrue();
+    }
 }

@@ -18,7 +18,7 @@ public sealed class ProductRepository : IProductRepository
         if (productModel is null)
             throw new ArgumentNullException();
         
-        _context.Products.AddAsync(productModel);
+        _context.Products.Add(productModel);
         return _context.SaveChanges() is 1;
     }
 
